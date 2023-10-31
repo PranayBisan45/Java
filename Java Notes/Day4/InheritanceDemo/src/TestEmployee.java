@@ -10,7 +10,7 @@ public class TestEmployee {
 		System.out.println(semp);
 		ContractEmployee cemp=new ContractEmployee(12,"Rajat","4444","a@gmail.com","hr","associate",LocalDate.of(2002, 12,30),30,4000);
 		Employee e1=new SalariedEmp();
-		((SalariedEmp)e1).getBonus();
+		 ((SalariedEmp)e1).getBonus();
 		Person p=new SalariedEmp();
 		System.out.println(cemp);
 		SalariedEmp s=(SalariedEmp)e1;
