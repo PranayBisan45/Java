@@ -12,7 +12,6 @@ public class TestFunctionOverloading {
 	public static void main(String[] args) {
 		add(12,13);
 		final int i=23;
-		i=34;
 	}
 
 }

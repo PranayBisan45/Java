@@ -49,7 +49,8 @@ public class Person implements Comparable<Person>{
 	}
 	@Override
 	public String toString() {
-		return "Person [pid=" + pid + ", pname=" + pname + ", mobile=" + mobile + ", email=" + email + "]";
+		return "Person [pid=" + pid + ", pname=" + pname + ", mobile=" + mobile + ", email=" + email + 
+		"]";
 	}
 	@Override
 	public int compareTo(Person o) {
