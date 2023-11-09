@@ -1,5 +1,5 @@
 package com.demo.dao;
-
+//import com.demo.beans.Person;
 import java.time.LocalDate;
 import java.util.Comparator;
 import java.util.HashSet;
@@ -46,7 +46,8 @@ public class EmployeeDaoImpl implements EmployeeDao{
 
 	@Override
 	public boolean removeById(int id) {
-		return hs.remove(new SalariedEmp(id) );
+		// return hs.remove(new Person(id) );
+		   return hs.remove(new SalariedEmp(id) );
 	}
 
 	@Override

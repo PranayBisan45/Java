@@ -13,7 +13,7 @@ public class Person implements Comparable<Person>{
 		this.pid=id;
 		
 	}
-	public boolean equals(Object ob) {
+	public boolean equals(Object ob) {                          
 		return this.pid==((Person)ob).pid;
 	}
 	public Person(int pid, String pname, String mobile, String email) {
