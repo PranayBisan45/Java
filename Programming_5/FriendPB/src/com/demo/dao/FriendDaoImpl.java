@@ -57,21 +57,10 @@ public class FriendDaoImpl implements FriendDao{
 		List<Friends> fhb=new ArrayList<>();
 
 			for(Friends f:Friend) {
-//				if(f.getHobbies()!=null) {
 			if(f.getHobbies().contains(hb)) {
 				fhb.add(f);
-			}
-			
-//			return null;
-			
+			}	
 		}
-			
-		//return fhb!=null ? fhb :null;
-//			if(fhb!=null) {
-//				return fhb;
-//			} else {
-//				return null;
-//			}
 			return fhb;
 	}
 }
